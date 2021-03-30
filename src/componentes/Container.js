@@ -3,7 +3,7 @@ import arrayTarjetas from '../rickandmorty.json'
 
 function Container(){
     return (
-        <div className="container">
+        <div className="unaTarjeta-1">
             {
                 arrayTarjetas.map(function(unaTarjeta,idx){
                     return(

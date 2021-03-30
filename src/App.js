@@ -8,16 +8,35 @@ import Container from './componentes/Container';
 
 function App() {
   return (
-    <React.Fragment className= "contenedorPadre">
+  
 
-    <Header/>
+<div classNameNameName="App">
+      
+      
+      <header className="App-header">
+          <div className="Header">
+                <Header />
+          </div>
+      </header>
 
-    <Container/>
- 
-      <Footer/>
+<div className="contenedor-padre">
+          
+
+   <div className="mainDiv">
+   <Container/>
+   </div>
+
+    </div>
+
+          <footer className="Footer">
+              <Footer />
+          </footer>
 
 
-    </React.Fragment>
+    </div>
+
+
+   
   )
 }
 
