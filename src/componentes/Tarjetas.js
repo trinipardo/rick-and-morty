@@ -1,5 +1,5 @@
 import React from 'react';
-import arrayTarjetas from '../rickandmorty.json'
+// import arrayTarjetas from '../rickandmorty.json'
 
 function Tarjetas (props){
   console.log(props);
