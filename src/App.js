@@ -19,14 +19,13 @@ function App() {
           </div>
       </header>
 
-<div className="contenedor-padre">
           
-
+      
    <div className="mainDiv">
    <Container/>
    </div>
 
-    </div>
+  
 
           <footer className="Footer">
               <Footer />
