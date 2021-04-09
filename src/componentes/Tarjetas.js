@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import arrayTarjetas from '../rickandmorty.json'
 
-function Tarjetas (props){
+function Tarjetas(props) {
   console.log(props);
     return (
       <div className="tarjeta">
@@ -11,8 +11,7 @@ function Tarjetas (props){
         <p>Especies: {props.mostrarTarjeta.species}</p>
         <p>Origin: {props.mostrarTarjeta.origin.name}</p>
       </div>
-    )
+    )}
 
-}
 
 export default Tarjetas;
