@@ -3,8 +3,12 @@ import arrayTarjetas from '../rickandmorty.json'
 import React, {Component} from 'react';
 
 class Container extends Component{
-    
-    
+    constructor(props){
+        super(props);
+        this.state= {
+          data: arrayTarjetas
+        }
+      }
 
     entratTarjeta(event){
         console.log("El mouse entro a la Tarjeta")
@@ -22,12 +26,12 @@ class Container extends Component{
         onMouseEnter={this.entratTarjeta}
         onMouseLeave={this.salirTarjeta}>
             {
-                arrayTarjetas.map(function(unaTarjeta,idx){
-                    return(
-                        <Tarjetas mostrarTarjeta={unaTarjeta} key={idx}/>
+        this.state.data.map((unaTarjeta) => 
+                    (
+                        <Tarjetas mostrarTarjeta = {unaTarjeta} />
 
                     )
-                })
+                )
             }
         </div>
     )};

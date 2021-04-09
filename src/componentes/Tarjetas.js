@@ -11,7 +11,7 @@ import React, { Component } from 'react';
       colorOriginal: this.props.color
     }
   }
- }
+ 
 
  CambiarColor= (nuevoColor)=>{
    if (this.state.color == this.setState.colorOriginal)
@@ -20,7 +20,7 @@ import React, { Component } from 'react';
 }
 
 render() {
-  const { image, name, origin, status,  species } = this.props;
+  const { image, name, origin, status,  species } = this.props.mostrarTarjeta;
 
   return (
           <div className="tarjeta" style={{backgroundColor:  this.state.color}}>
@@ -28,10 +28,11 @@ render() {
           <img src={image} alt=""/>
           <p>Estatus: {status}</p>
            <p>Especies: {species}</p>
-            <p>Origin: {origin}</p>
+            <p>Origin: {origin.name}</p>
           </div>
        )
         }
+    }
 
 
  // function Tarjetas(props) {
