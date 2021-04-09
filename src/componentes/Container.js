@@ -1,7 +1,8 @@
 import Tarjetas from './Tarjetas'
 import arrayTarjetas from '../rickandmorty.json'
-
-function Container(){
+import React, {Component} from 'react'
+class Container extends Component{
+    render(){
     return (
         
         <div className="unaTarjeta-1">
@@ -14,9 +15,6 @@ function Container(){
                 })
             }
         </div>
-       
-    )
+    )};
 }
-
-
 export default Container;

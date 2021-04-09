@@ -1,14 +1,10 @@
-import React from 'react';
-
+import React, { Component } from 'react';
 import Header from './componentes/Header';
-
 import Footer from './componentes/Footer';
 import Container from './componentes/Container';
 
-
-
-
-function App() {
+export default class App extends Component {
+  render(){
   return (
   
 
@@ -35,13 +31,9 @@ function App() {
 
 
     </div>
-
-
-   
-  )
+  )}
 }
 
-export default App;
 
 
 
