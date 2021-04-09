@@ -1,4 +1,6 @@
 
+  
+  
   .Header { grid-area: 1 / 1 / 2 / 4;
             background-color:#cce0ff;
             text-align: center;
@@ -35,17 +37,23 @@
       margin-top: 5%;
   }
 
-  .mainDiv { grid-area: 2 / 1 / 4 / 4; 
+  .mainDiv {  
+    
+    grid-area: 2 / 1 / 4 / 4; 
   }
   
   .unaTarjeta-1 { grid-area: 2 / 1 / 4 / 2;
                   background-color: rgb(244, 244, 244);
                   padding: 2%;  
+                 
+ 
                 }
   
   .unaTarjeta-2 { grid-area: 2 / 2 / 4 / 3;
                     background-color: burlywood;
                     padding: 2%;
+                   
+  
                 }
   
   .unaTarjeta-3 { grid-area: 2 / 3 / 4 / 4;
