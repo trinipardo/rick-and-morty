@@ -14,7 +14,7 @@ import React, { Component } from 'react';
  
 
  CambiarColor= (nuevoColor)=>{
-   if (this.state.color == this.setState.colorOriginal)
+   if (this.state.color === this.setState.colorOriginal)
    this.setState({color: nuevoColor});
 
 }
